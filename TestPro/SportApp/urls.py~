@@ -1,0 +1,8 @@
+from django.urls import path
+from .views import Sport, Home, contact
+
+urlpatterns = [
+    path('', Home, name = "home"),
+    path('sports/', Sports, name = "sports"),
+    path('contact/', Contact, name='contact'),
+    ]
